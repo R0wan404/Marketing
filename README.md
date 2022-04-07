@@ -4,6 +4,6 @@
 * JS
 
 **Made By MEG Team** <br>
-*Pizza's restaurant page*
+*Marketing company page*
 
-[Website Link](https://megteam.github.io/Pizzas/)
+[Website Link](https://megteam.github.io/Marketing/)
