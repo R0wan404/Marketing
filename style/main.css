@@ -116,9 +116,60 @@
     border: 0.6px solid rgba(255, 255, 255, 0.651);
     cursor: pointer;
 }
-
 .galary-icons > .active {
     background-color: white;
 }
-
 /* End First sec */
+/* What we offer start */
+.main-offer{
+    width: 100%;
+    margin: 65px auto 50px auto;
+    font-family: "Lato", sans-serif;
+}
+.offer-head{
+    color: black;
+    text-align: center; 
+    font-size: 25px;
+}
+.offer-head hr{
+    width: 163px;
+    margin: 10px auto 10px auto;
+    border: 3px solid gray;
+}
+.Offer-text{
+    display: grid;
+    margin: 50px auto 40px auto;
+    grid-template-columns: repeat( auto-fill , calc(1070px/4) );
+    grid-template-rows: repeat( 2 , auto );
+    justify-content: center;
+    width: 90vw;
+}
+.Offer-text .one{
+    background-color: #f1f1f1;
+    color: black;
+}
+.Offer-text .two{
+    background-color: #9e9e9e;
+    color: black;
+}
+.Offer-text .three{
+    background-color: #616161;
+    color: white;
+}
+.Offer-text .four{
+    background-color: #000;
+    color: white;
+}
+.Offer-text div{
+    padding: 10px;
+    height: fit-content;
+    line-height: 22px;
+    padding: 10px 15px 20px 20px;
+    text-transform: lowercase
+}
+.Offer-text div::first-line{
+    font-size: 25px;
+    line-height: 65px;
+    text-transform: capitalize;
+}
+/* End What we offer */
