@@ -173,3 +173,13 @@
     text-transform: capitalize;
 }
 /* End What we offer */
+/* What we offer start */
+@media (max-width:768px){
+    .Offer-text{
+        width: 95%;
+        grid-template-columns: repeat( auto-fill , 100% );
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* End What we offer */
